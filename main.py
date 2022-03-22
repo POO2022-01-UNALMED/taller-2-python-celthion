@@ -52,7 +52,7 @@ class Auto:
 
 
 
-class motor:
+class Motor:
   def __init__(self, numeroCilindros, tipo,registro):
    self.numeroCilindros = numeroCilindros
    self.tipo = tipo
