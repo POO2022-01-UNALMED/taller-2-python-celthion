@@ -41,6 +41,8 @@ class Auto:
 
   def verificarIntegridad(self):
    cont = 0
+   self.asientos = list(filter(None, self.asientos))
+
    for i in range(len(self.asientos)):
        if(self.asientos[i].registro == self.registo == self.motor.registro):
            cont += 1
