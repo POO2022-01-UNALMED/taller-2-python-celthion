@@ -36,8 +36,10 @@ class Auto:
 
 
 
+  def cantidadAsientos(self):
+      cont=1
 
-  def asignarTipo(self):
+  def verificarIntegridad(self):
    cont = 0
    for i in range(len(self.asientos)):
        if(self.asientos[i].registro == self.registo == self.motor.registro):
