@@ -37,7 +37,11 @@ class Auto:
 
 
   def cantidadAsientos(self):
-      cont=1
+      cont=0
+      for i in range(len(self.asientos)):
+          if(type(self.asientos[i]) is Asiento):
+              cont +=1
+      return cont
 
   def verificarIntegridad(self):
    cont = 0
